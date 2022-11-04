@@ -47,7 +47,7 @@ function boldPassage(word, text) {
 
 function offensiveWord(sentence){
   let htmlString = "<p>";
-  let offensiveWord = ["Zoink","muppeteer","biffaron","loopdaloo"]
+  let offensiveWord = ["Zoink","muppeteer","biffaroni","loopdaloop"]
   let wordArray = sentence.split(" ")
   wordArray.forEach(function(element, index){
     offensiveWord.forEach(function(element2){
